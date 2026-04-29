@@ -1,12 +1,12 @@
 [project]
 name = "eta-predictor"
 version = "0.1.0"
-description = ""
+description = "Production-ready ETA prediction service"
 authors = [
     {name = "Eunice",email = "euniceamobeaadjei@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.11"
 dependencies = [
     "pandas (<3)",
     "scikit-learn (>=1.8.0,<2.0.0)",

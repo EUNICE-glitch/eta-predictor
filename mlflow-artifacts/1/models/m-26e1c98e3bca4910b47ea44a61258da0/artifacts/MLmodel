@@ -1,0 +1,27 @@
+artifact_path: file:C:/Users/steph/Documents/projects/eta-predictor/mlflow-artifacts/1/models/m-26e1c98e3bca4910b47ea44a61258da0/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-26e1c98e3bca4910b47ea44a61258da0
+model_size_bytes: 1958
+model_uuid: m-26e1c98e3bca4910b47ea44a61258da0
+prompts: null
+run_id: a59d6318b03142d6a3a83eb62cb56428
+saved_input_example_info:
+  artifact_path: input_example.json
+  serving_input_path: serving_input_example.json
+  type: json_object
+utc_time_created: '2026-04-29 18:30:13.831194'
